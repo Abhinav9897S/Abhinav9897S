@@ -11,7 +11,7 @@
 <img src="./assets/banner.svg" width="100%" alt="Abhinav — animated 3D banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=640&lines=Mathematics+%26+Computing+%40+JIIT+'29+%F0%9F%8E%93;AI+%C2%B7+ML+%C2%B7+Data+Science+%F0%9F%A4%96;Information+Retrieval+%F0%9F%94%8D;Astrophysics+enthusiast+%F0%9F%94%AD;Open+Source+contributor+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=820&lines=Mathematics+%26+Computing+%40+JIIT+'29+%F0%9F%8E%93;AI+%C2%B7+ML+%C2%B7+Data+Science+%F0%9F%A4%96;Information+Retrieval+%F0%9F%94%8D;Astrophysics+enthusiast+%F0%9F%94%AD;Open+Source+contributor+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <p>

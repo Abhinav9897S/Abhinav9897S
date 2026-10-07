@@ -8,6 +8,7 @@ and projected in Python, and the frames are baked into SMIL keyframes.
 Usage: python3 scripts/generate_assets.py
 """
 import math
+from xml.sax.saxutils import escape
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
@@ -207,8 +208,8 @@ def banner():
   </g>
   <g font-family="{FONT}">
     <text x="80" y="118" fill="#a5b4fc" font-size="20" letter-spacing="6" opacity="0.9">HELLO, WORLD — I'M</text>
-    <text x="76" y="200" font-size="92" font-weight="800" letter-spacing="4" fill="url(#title)" filter="url(#softglow)">{NAME}</text>
-    <text x="80" y="246" fill="#e2e8f0" font-size="21" opacity="0.85">{TAGLINE}</text>
+    <text x="76" y="200" font-size="92" font-weight="800" letter-spacing="4" fill="url(#title)" filter="url(#softglow)">{escape(NAME)}</text>
+    <text x="80" y="246" fill="#e2e8f0" font-size="21" opacity="0.85">{escape(TAGLINE)}</text>
     <rect x="80" y="266" width="260" height="3" rx="1.5" fill="url(#title)">
       <animate attributeName="width" values="0;260" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
@@ -352,5 +353,7 @@ if __name__ == "__main__":
     orb()
     divider()
     footer()
+    import xml.dom.minidom
     for p in sorted(OUT.glob("*.svg")):
+        xml.dom.minidom.parse(str(p))  # fail loudly on malformed SVG
         print(f"{p.name}: {p.stat().st_size / 1024:.0f} KB")
