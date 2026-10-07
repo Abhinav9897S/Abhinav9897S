@@ -5,8 +5,8 @@ on:
     - cron: "17 0 * * *" # daily
   workflow_dispatch:
   push:
-    branches: [main]
-    paths: [".github/workflows/profile-3d.yml"]
+    branches: [main, claude/dreamy-galileo-zw5qis]
+    paths: [".github/workflows/profile-3d.yml", "scripts/activity_graph.py"]
 
 permissions:
   contents: write
@@ -30,6 +30,12 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#c084fc&color_dots=#161b22,#4c1d95,#7c3aed,#a855f7,#f472b6
+
+      - name: Contribution pulse graph
+        run: python3 scripts/activity_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit generated images
         run: |

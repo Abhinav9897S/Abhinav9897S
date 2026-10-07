@@ -87,7 +87,7 @@ class Abhinav:
 
 <img width="100%" src="https://streak-stats.demolab.com?user=Abhinav9897S&hide_border=true&background=0D0221&ring=C084FC&fire=F472B6&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=C084FC&sideLabels=E2E8F0&dates=94A3B8&stroke=2A0B3D" alt="GitHub streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhinav9897S&bg_color=0D0221&color=E2E8F0&line=C084FC&point=F472B6&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Pulse" alt="Activity graph" />
+<img width="100%" src="./dist/activity-graph.svg" alt="Contribution pulse graph" />
 
 </div>
 
