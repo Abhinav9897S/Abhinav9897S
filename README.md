@@ -11,13 +11,13 @@
 <img src="./assets/banner.svg" width="100%" alt="Abhinav — animated 3D banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=640&lines=Crafting+software+with+a+touch+of+magic+%E2%9C%A8;Turning+coffee+into+clean+code+%E2%98%95;Always+learning.+Always+shipping.+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=640&lines=Mathematics+%26+Computing+%40+JIIT+'29+%F0%9F%8E%93;AI+%C2%B7+ML+%C2%B7+Data+Science+%F0%9F%A4%96;Information+Retrieval+%F0%9F%94%8D;Astrophysics+enthusiast+%F0%9F%94%AD;Open+Source+contributor+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=Abhinav9897S&label=PROFILE%20VIEWS&color=a855f7&style=for-the-badge" alt="Profile views" />
   <a href="https://github.com/Abhinav9897S?tab=followers"><img src="https://img.shields.io/github/followers/Abhinav9897S?label=FOLLOWERS&style=for-the-badge&color=ec4899&labelColor=1a0b2e&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/Abhinav9897S?tab=repositories"><img src="https://img.shields.io/badge/STATUS-BUILDING%20COOL%20STUFF-22d3ee?style=for-the-badge&labelColor=1a0b2e" alt="Status" /></a>
+  <a href="https://github.com/Abhinav9897S?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20TO-WORK-22d3ee?style=for-the-badge&labelColor=1a0b2e" alt="Status" /></a>
 </p>
 
 </div>
@@ -28,22 +28,37 @@
 
 <img src="./assets/orb.svg" align="right" width="300" alt="Rotating 3D particle orb" />
 
-```js
-const abhinav = {
-  role:       "Developer & Builder",
-  focus:      ["Web", "Software Engineering", "Open Source"],
-  learning:   "something new every single day",
-  currently:  "turning ideas into shipped products",
-  funFact:    "this banner is real 3D math baked into SVG ✨",
-};
+```python
+class Abhinav:
+    name     = "Abhinav Singh"
+    studying = "Mathematics & Computing @ JIIT (2029)"
+    based_in = "Noida, Uttar Pradesh, India"
+    interests = ["AI", "Machine Learning", "Data Science",
+                 "Information Retrieval", "Astrophysics", "Open Source"]
+    fun_fact = "the banner above is real 3D math baked into SVG ✨"
 ```
 
-- 🔭 Working on projects that blend **clean engineering** with **delightful design**
-- 🌱 Constantly exploring new tools, frameworks and ideas
-- 🤝 Open to collaborating on interesting open-source projects
-- 📫 Reach me via [GitHub](https://github.com/Abhinav9897S)
+- 🎓 Studying **Mathematics & Computing** at **JIIT** (Class of 2029)
+- 🤖 Into **AI, ML & Data Science**: building models that actually ship
+- 🔍 Exploring **Information Retrieval** and search systems
+- 🔭 Looking up at the sky: **Astrophysics** enthusiast
+- 🌱 Open-source contributor, always learning
+- 💼 Open to internships & collaborations
 
 <br clear="right" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/Abhinav9897S/DueDiligenceIQ"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhinav9897S&repo=DueDiligenceIQ&hide_border=true&bg_color=0D0221&title_color=C084FC&icon_color=22D3EE&text_color=E2E8F0" alt="DueDiligenceIQ" /></a>
+<a href="https://github.com/Abhinav9897S/forex-trade-optimizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhinav9897S&repo=forex-trade-optimizer&hide_border=true&bg_color=0D0221&title_color=C084FC&icon_color=22D3EE&text_color=E2E8F0" alt="forex-trade-optimizer" /></a>
+<a href="https://github.com/Abhinav9897S/AQI-Predictor"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhinav9897S&repo=AQI-Predictor&hide_border=true&bg_color=0D0221&title_color=C084FC&icon_color=22D3EE&text_color=E2E8F0" alt="AQI-Predictor" /></a>
+<a href="https://github.com/Abhinav9897S/Working-with-IBM-Granite"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhinav9897S&repo=Working-with-IBM-Granite&hide_border=true&bg_color=0D0221&title_color=C084FC&icon_color=22D3EE&text_color=E2E8F0" alt="Working-with-IBM-Granite" /></a>
+
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -51,9 +66,9 @@ const abhinav = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,html,css,react,nextjs,nodejs,tailwind,threejs&perline=12&theme=dark" alt="Languages and frameworks" />
+<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,html,css,react,nodejs,flask,tensorflow,pytorch,sklearn&perline=12&theme=dark" alt="Languages and frameworks" />
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,docker,mongodb,postgres,firebase,vercel,figma,npm&perline=12&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,docker,mysql,mongodb,postgres,vercel,figma,latex&perline=12&theme=dark" alt="Tools" />
 
 </div>
 

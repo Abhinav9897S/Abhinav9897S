@@ -15,7 +15,7 @@ FONT = "'Segoe UI', 'SF Pro Display', Helvetica, Arial, sans-serif"
 MONO = "'JetBrains Mono', 'Fira Code', Consolas, monospace"
 
 NAME = "ABHINAV"
-TAGLINE = "Developer  ·  Builder  ·  Lifelong Learner"
+TAGLINE = "Mathematics & Computing @ JIIT  ·  AI / ML  ·  Astrophysics"
 
 
 def f(x):
@@ -341,7 +341,7 @@ def footer():
 <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="none" stroke="#a855f7" stroke-opacity="0.35"/>
 <g filter="url(#glow)">{left}{right}</g>
 <text x="{W / 2}" y="56" text-anchor="middle" font-family="{FONT}" font-size="26" font-weight="700" letter-spacing="3" fill="url(#t)">THANKS FOR STOPPING BY</text>
-<text x="{W / 2}" y="86" text-anchor="middle" font-family="{MONO}" font-size="15" fill="#94a3b8">&lt;/&gt; build things that matter  ·  ship  ·  repeat</text>
+<text x="{W / 2}" y="86" text-anchor="middle" font-family="{MONO}" font-size="15" fill="#94a3b8">&lt;/&gt; exploring data, models &amp; the cosmos  ·  Noida, India</text>
 </svg>'''
     (OUT / "footer.svg").write_text(svg)
 
